@@ -9,7 +9,7 @@ module.exports = [{
 }, {
   id: 'a1', // Single Person + Name + Image
   name: 'woop woop',
-  image: 'woop.png',
+  image: 'backoffice.png',
   users: ['a0', 'a2'],
   messages: []
 }, {
