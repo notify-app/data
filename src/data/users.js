@@ -7,6 +7,7 @@ module.exports = [{
   image: 'lucat.jpg',
   token: null,
   rooms: [],
+  bot: false,
   state: 'a1',
   messages: [],
   unread: []
@@ -17,7 +18,8 @@ module.exports = [{
   image: 'zara.png',
   token: null,
   rooms: [],
-  state: 'a0',
+  bot: true,
+  state: 'a1',
   messages: [],
   unread: []
 }, {
@@ -27,7 +29,8 @@ module.exports = [{
   image: 'jmerci.jpg',
   token: null,
   rooms: [],
-  state: 'a0',
+  bot: false,
+  state: 'a1',
   messages: [],
   unread: []
 }, {
@@ -37,7 +40,8 @@ module.exports = [{
   image: 'gfarug.jpeg',
   token: null,
   rooms: [],
-  state: 'a2',
+  bot: false,
+  state: 'a1',
   messages: [],
   unread: []
 }, {
@@ -47,6 +51,7 @@ module.exports = [{
   image: 'gdebat.jpg',
   token: null,
   rooms: [],
+  bot: false,
   state: 'a1',
   messages: [],
   unread: []
