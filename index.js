@@ -40,5 +40,3 @@ Promise.all(promises)
   .catch((err) => {
     console.error('error:', err)
   })
-
-

@@ -19,7 +19,7 @@ module.exports = {
       })
   },
 
-  create(type, records) {
+  create (type, records) {
     return notifyUser.store.create(type, records)
   }
 }
