@@ -15,6 +15,11 @@ for (let i = 0; i < keys.length; i++) {
 
 Promise.all(promises)
   .then(() => {
+    console.log('grants created')
+    return creator.create(notifyStore.types.GRANTS,
+      require('./src/data/grants'))
+  })
+  .then(() => {
     console.log('states created')
     return creator.create(notifyStore.types.STATES,
       require('./src/data/states'))
