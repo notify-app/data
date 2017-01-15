@@ -3,7 +3,7 @@
 module.exports = [{
   id: 'a0',
   username: 'tabone',
-  password: 'admin123',
+  internalID: '0',
   image: 'lucat.jpg',
   token: null,
   rooms: [],
@@ -14,7 +14,7 @@ module.exports = [{
 }, {
   id: 'a1',
   username: 'peter',
-  password: 'admin123',
+  internalID: '1',
   image: 'zara.png',
   token: null,
   rooms: [],
@@ -25,7 +25,7 @@ module.exports = [{
 }, {
   id: 'a2',
   username: 'phillip',
-  password: 'admin123',
+  internalID: '2',
   image: 'jmerci.jpg',
   token: null,
   rooms: [],
@@ -36,7 +36,7 @@ module.exports = [{
 }, {
   id: 'a3',
   username: 'joseph',
-  password: 'admin123',
+  internalID: '3',
   image: 'gfarug.jpeg',
   token: null,
   rooms: [],
@@ -47,7 +47,7 @@ module.exports = [{
 }, {
   id: 'a4',
   username: 'lawrence',
-  password: 'admin123',
+  internalID: '4',
   image: 'gdebat.jpg',
   token: null,
   rooms: [],
