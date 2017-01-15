@@ -35,6 +35,11 @@ Promise.all(promises)
       require('./src/data/messages'))
   })
   .then(() => {
+    console.log('tokens created')
+    return creator.create(notifyStore.types.TOKENS,
+      require('./src/data/tokens'))
+  })
+  .then(() => {
     console.log('ready.')
   })
   .catch((err) => {

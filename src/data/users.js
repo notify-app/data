@@ -55,4 +55,13 @@ module.exports = [{
   state: 'a1',
   messages: [],
   unread: []
+}, {
+  id: 'a5',
+  username: 'login',
+  token: null,
+  rooms: [],
+  bot: true,
+  state: null,
+  messages: [],
+  unread: []
 }]
