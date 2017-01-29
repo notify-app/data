@@ -8,6 +8,9 @@
   },
   "author": "Luca Tabone <taboneluca3@gmail.com>",
   "license": "ISC",
+  "dependencies": {
+    "notify-store": "0.1.0"
+  },
   "devDependencies": {
     "standard": "^8.6.0"
   }
