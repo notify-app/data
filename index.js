@@ -25,9 +25,19 @@ Promise.all(promises)
       require('./src/data/states'))
   })
   .then(() => {
-    console.log('users created')
+    console.log('users child created')
     return creator.create(notifyStore.types.USERS,
-      require('./src/data/users'))
+      require('./src/data/users-0'))
+  })
+  .then(() => {
+    console.log('users parent created')
+    return creator.create(notifyStore.types.USERS,
+      require('./src/data/users-1'))
+  })
+  .then(() => {
+    console.log('users admin created')
+    return creator.create(notifyStore.types.USERS,
+      require('./src/data/users-2'))
   })
   .then(() => {
     console.log('rooms created')

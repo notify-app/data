@@ -1,21 +1,10 @@
 'use strict'
 
 module.exports = [{
-  id: 'a0',
-  username: 'tabone',
-  internalID: '0',
-  image: 'lucat.jpg',
-  token: null,
-  rooms: [],
-  bot: false,
-  state: 'a1',
-  messages: [],
-  unread: []
-}, {
   id: 'a1',
   username: 'peter',
   internalID: '1',
-  image: 'zara.png',
+  image: null,
   token: null,
   rooms: [],
   bot: true,
@@ -26,7 +15,7 @@ module.exports = [{
   id: 'a2',
   username: 'phillip',
   internalID: '2',
-  image: 'jmerci.jpg',
+  image: null,
   token: null,
   rooms: [],
   bot: false,
@@ -37,7 +26,7 @@ module.exports = [{
   id: 'a3',
   username: 'joseph',
   internalID: '3',
-  image: 'gfarug.jpeg',
+  image: null,
   token: null,
   rooms: [],
   bot: false,
@@ -48,21 +37,11 @@ module.exports = [{
   id: 'a4',
   username: 'lawrence',
   internalID: '4',
-  image: 'gdebat.jpg',
+  image: null,
   token: null,
   rooms: [],
   bot: false,
   state: 'a1',
-  messages: [],
-  unread: []
-}, {
-  id: 'a5',
-  username: 'login',
-  token: null,
-  grants: ['a0', 'a2'],
-  rooms: [],
-  bot: true,
-  state: null,
   messages: [],
   unread: []
 }]
