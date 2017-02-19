@@ -12,5 +12,5 @@ module.exports = [{
   messages: [],
   grants: ['a1', 'a2'],
   unread: [],
-  created: ['a1']
+  created: ['a1', 'a2']
 }]

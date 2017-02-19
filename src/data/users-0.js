@@ -18,7 +18,7 @@ module.exports = [{
   image: null,
   token: null,
   rooms: [],
-  bot: false,
+  bot: true,
   state: 'a1',
   messages: [],
   unread: []
